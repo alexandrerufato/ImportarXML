@@ -1,0 +1,9 @@
+delete from item_nota where true;
+
+delete from nota where true;
+
+select * from nota;
+
+select * from item_nota;
+
+select * from item_nota where ncm like '40091290' or ncm like '40092290' or ncm like '40093290' or ncm like '40094210' or ncm like '40111000' or ncm like '40114000' or ncm like '40139000' or ncm like '83023000' or ncm like '84099111' or ncm like '84099120' or ncm like '84099190' or ncm like '84122190' or ncm like '84133090' or ncm like '84148019' or ncm like '84149039' or ncm like '84152010' or ncm like '84152090' or ncm like '84159000' or ncm like '84212300' or ncm like '84213100' or ncm like '84361000' or ncm like '84713012' or ncm like '84713019' or ncm like '84716052' or ncm like '84811000' or ncm like '84812090' or ncm like '84818092' or ncm like '84831090' or ncm like '84833090' or ncm like '84835010' or ncm like '84835090' or ncm like '84836019' or ncm like '85011019' or ncm like '85052090' or ncm like '85111000' or ncm like '85112010' or ncm like '85114000' or ncm like '85115010' or ncm like '85443000' or ncm like '87042310' or ncm like '87082999' or ncm like '87088000' or ncm like '87089100' or ncm like '87089529' or ncm like '87089990' or ncm like '90261029' or ncm like '90262010' or ncm like '90262090' or ncm like '90269090' or ncm like '90318040' order by ncm;
